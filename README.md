@@ -93,9 +93,8 @@ To run this project locally, you’ll need:
 
 ## **Folder Structure**
 
-Portfolio Page/
+Portfolio Page
 
-│
 ├── design/            
 ├── images/            
 ├── index.html         

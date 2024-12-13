@@ -16,10 +16,12 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/IMG_20241209_140316-Photoroom\ \(2\).jpg);
+    background-image: url(./images/Main-Desktop-Coverpic.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .logo{
     height: 45px;
@@ -344,7 +346,7 @@ nav ul li a:hover::after{
 
 .contact-left{
     flex-basis: 35%;
-
+   
 }
 .contact-right{
     flex-basis: 60%;
@@ -429,12 +431,13 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/Mobile-view-Cover-pic.jpg);
+        background-image: url(images/Mobile-Cover-pic-600p.jpg);
+        
     }
 
 
     .header-text{
-        margin-top: 85%;
+        margin-top: 100%;
         font-size: 16px;
     }
 
@@ -511,3 +514,132 @@ margin-top: -40px;
 display: block;
 }
 
+
+@media (max-width: 768px){
+
+        #header{
+            
+            background-image: url(./images/Tablet-coverpic-768p.jpg);
+            
+            
+        }
+        .header-text{
+            margin-top: 60%;
+            font-size: 20px;
+        }
+    
+        .header-text h1{
+            font-size: 35px;
+    
+        }
+ 
+         nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #FF004F;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition:  right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    
+    nav ul .fa-solid{
+        position: absolute;
+        top:25px;
+        left: 25px;
+        cursor: pointer;
+
+    }
+    .about-col-2 img{
+        width: 100%;
+        border-radius: 15px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .about-col-1{
+        font-size: 15px;
+    }
+
+    .contact-left p{
+        font-size: 12px;
+    }
+    .contact-left h1{
+        font-size: 35px;
+    }
+
+
+
+    
+}
+
+@media (max-width: 576px)  {
+    .header-text{
+        margin-top: 85%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 25px;
+
+    }
+
+}
+
+@media (max-width: 320px) {
+    #header{
+    
+        background-image: url(./images/mobile-smallerdevice-coverpic-576p.jpg);
+      
+        
+        
+    }
+    .header-text{
+        margin-top: 100%;
+        padding-top: 40px;
+        font-size: 12px;
+    }
+
+    .header-text h1{
+        font-size: 20px;
+
+    }
+    .header-text span{
+        font-size: 20px;
+    }
+
+
+    *{
+        font-size: 12px;
+    }
+    
+
+}
+
+@media (max-width: 425px) {
+
+   
+    .header-text{
+        margin-top: 100%;
+        
+        font-size: 12px;
+    }
+
+    .header-text h1{
+        font-size: 20px;
+
+    }
+    .header-text span{
+        font-size: 20px;
+    }
+
+}

@@ -93,7 +93,8 @@ To run this project locally, you’ll need:
 
 ## **Folder Structure**
 
-Fylo Landing Page/
+Portfolio Page/
+
 │
 ├── design/            
 ├── images/            

@@ -92,43 +92,57 @@ To run this project locally, you’ll need:
 
 
 
-Folder Structure
+## **Folder Structure**
 
-Portfolio Website/
+Fylo Landing Page/
 │
-├── images/              # Image assets (optimized)
-├── index.html           # Main HTML file
-├── style.css            # Custom CSS styles
-├── index.js             # JavaScript for interactivity
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore file
+├── design/            # Design previews (desktop, mobile)
+├── images/            # Image assets (optimized)
+├── index.html         # Main HTML file
+├── index.css          # Custom CSS styles
+├── README.md          # Project documentation
+├── style-guide.md     # Design guidelines (colors, typography)
+└── .gitattributes     # GitHub linguist language detection
+
+---
+
+## **Learnings**
+
+This project helped me gain deeper insights into:
+- 📏 **Responsive Design**: Creating layouts that adapt across devices using **media queries**.
+- 🎯 **Bootstrap Framework**: Leveraging the grid system and utility classes for faster development.
+- 🎨 **CSS Styling**: Writing clean, reusable styles for hover effects, typography, and layouts.
+- 🚀 **Static Hosting**: Deploying a static site using GitHub Pages.
+
+---
+
+## **Future Improvements**
+
+In future iterations, I aim to:
+1. Add **CSS animations** to enhance visual interactivity.
+2. Improve **accessibility** by ensuring compatibility with screen readers and ARIA attributes.
+3. Implement **JavaScript** for interactive elements like form validation or dynamic content.
+4. Optimize the layout further for faster loading on mobile devices.
+
+---
 
 
 
-Learnings
-This project helped me improve the following skills:
+## **Acknowledgments**
 
-Responsive Web Design: Using media queries and the Bootstrap grid system to make the design mobile-friendly.
-JavaScript for Dynamic Content: Implementing interactive elements like the side navigation menu and form submission.
-CSS Flexbox and Grid: Creating layouts with Flexbox and Grid for better responsiveness.
-Deploying with GitHub Pages: Hosting the project on GitHub Pages for easy sharing and access.
+- Thanks to **Freepik** for the amazing images used in the project.
+- Thanks to **Font Awesome** for providing the icons used throughout the design.
+- Appreciation to **CSS** for its flexibility in styling and creating a responsive layout.
 
+---
 
-Future Improvements
-Add Animations: Implement smooth transitions and animations for a more dynamic user experience.
-Improve Accessibility: Add ARIA labels and improve keyboard navigation for better accessibility.
-Add More Projects: Showcase more of my projects and add detailed descriptions.
-Enhance the Contact Form: Implement more advanced form validation or connect the form to a backend service.
+## **Feedback**
 
+I’d love to hear your thoughts and suggestions about this project!  
+Feel free to:
+- **Raise an issue** in this repository.
+- **Connect with me** on [LinkedIn](https://www.linkedin.com/in/sai-chandu-a-454a9a126/).
+- Drop me an email at **saichanduallamgari@gmail.com**.
 
-Acknowledgments
-Thanks to Bootstrap for providing the responsive framework that made layout creation easier.
-Gratitude to Google Sheets API for making the contact form functionality possible.
+---
 
-
-Feedback
-I’d love to hear your thoughts and suggestions about this project! Feel free to:
-
-Raise an issue in this repository.
-Connect with me on LinkedI.
-Drop me an email at saichanduallamgari@gmail.com.

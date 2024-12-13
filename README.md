@@ -91,7 +91,6 @@ To run this project locally, you’ll need:
    git clone https://github.com/yourusername/portfolio-website.git
 
 
-
 ## **Folder Structure**
 
 Fylo Landing Page/
@@ -103,6 +102,7 @@ Fylo Landing Page/
 ├── README.md          # Project documentation
 ├── style-guide.md     # Design guidelines (colors, typography)
 └── .gitattributes     # GitHub linguist language detection
+
 
 ---
 

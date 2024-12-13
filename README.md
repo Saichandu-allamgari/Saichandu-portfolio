@@ -95,13 +95,13 @@ To run this project locally, you’ll need:
 
 Fylo Landing Page/
 │
-├── design/            # Design previews (desktop, mobile)
-├── images/            # Image assets (optimized)
-├── index.html         # Main HTML file
-├── index.css          # Custom CSS styles
-├── README.md          # Project documentation
-├── style-guide.md     # Design guidelines (colors, typography)
-└── .gitattributes     # GitHub linguist language detection
+├── design/            
+├── images/            
+├── index.html         
+├── index.css          
+├── README.md          
+├── style-guide.md     
+└── .gitattributes     
 
 
 ---

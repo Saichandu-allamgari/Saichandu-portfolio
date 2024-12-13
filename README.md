@@ -94,13 +94,11 @@ To run this project locally, you’ll need:
 ## **Folder Structure**
 
 Portfolio Page
-
-├── design/            
+         
 ├── images/            
 ├── index.html         
 ├── index.css          
-├── README.md          
-├── style-guide.md     
+├── README.md             
 └── .gitattributes     
 
 
